@@ -9,15 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            VStack {
+                
+            }
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.red.gradient)
+            
+            Button("Hello, world") {
+                
+            }
+            .frame(width: 200, height: 200)
+            .background(.orange)
+            .padding()
+            .background(.yellow)
+            .padding()
+            .background(.blue)
+            .padding()
+            .background(.green)
         }
-        .padding()
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(.red.gradient)
     }
 }
 
