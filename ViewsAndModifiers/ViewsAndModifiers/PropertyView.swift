@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct PropertyView: View {
-    
+    let motto1 = Text("Draco dormiens")
+    let motto2 = Text("nunquam titillandus")
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        motto1
+        motto2
     }
 }
 
