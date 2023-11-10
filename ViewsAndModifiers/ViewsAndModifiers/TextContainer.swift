@@ -9,10 +9,14 @@ import SwiftUI
 
 struct TextContainer: View {
     var body: some View {
-        Text("Hello, World!")
-        Text("Hello, World!")
-        Text("Hello, World!")
-        Text("Hello, World!")
+        VStack {
+            Text("Hello, World!")
+                .font(.largeTitle)
+            Text("Hello, World!")
+            Text("Hello, World!")
+            Text("Hello, World!")
+        }
+        .font(.title)
     }
 }
 
