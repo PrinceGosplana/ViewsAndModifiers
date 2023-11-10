@@ -11,6 +11,7 @@
 		95B663FD2AFB64AF00D31A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B663FC2AFB64AF00D31A0B /* ContentView.swift */; };
 		95B663FF2AFB64B300D31A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B663FE2AFB64B300D31A0B /* Assets.xcassets */; };
 		95B664022AFB64B300D31A0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B664012AFB64B300D31A0B /* Preview Assets.xcassets */; };
+		95B664092AFDE7A700D31A0B /* TextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B664082AFDE7A700D31A0B /* TextContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		95B663FC2AFB64AF00D31A0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95B663FE2AFB64B300D31A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B664012AFB64B300D31A0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95B664082AFDE7A700D31A0B /* TextContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				95B663FA2AFB64AF00D31A0B /* ViewsAndModifiersApp.swift */,
 				95B663FC2AFB64AF00D31A0B /* ContentView.swift */,
+				95B664082AFDE7A700D31A0B /* TextContainer.swift */,
 				95B663FE2AFB64B300D31A0B /* Assets.xcassets */,
 				95B664002AFB64B300D31A0B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B664092AFDE7A700D31A0B /* TextContainer.swift in Sources */,
 				95B663FD2AFB64AF00D31A0B /* ContentView.swift in Sources */,
 				95B663FB2AFB64AF00D31A0B /* ViewsAndModifiersApp.swift in Sources */,
 			);
