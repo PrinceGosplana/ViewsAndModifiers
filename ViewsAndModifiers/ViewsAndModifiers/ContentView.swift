@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var useRedText = false
+    
     var body: some View {
         ZStack {
             VStack {
@@ -18,8 +20,9 @@ struct ContentView: View {
             .background(.red.gradient)
             
             Button("Hello, world") {
-                
+                useRedText.toggle()
             }
+            .foregroundColor(useRedText ? .red : .blue)
             .frame(width: 200, height: 200)
             .background(.orange)
             .padding()
