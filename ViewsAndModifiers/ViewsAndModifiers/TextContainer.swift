@@ -12,11 +12,13 @@ struct TextContainer: View {
         VStack {
             Text("Hello, World!")
                 .font(.largeTitle)
+                .blur(radius: 1)
             Text("Hello, World!")
             Text("Hello, World!")
             Text("Hello, World!")
         }
         .font(.title)
+        .blur(radius: 5)
     }
 }
 
