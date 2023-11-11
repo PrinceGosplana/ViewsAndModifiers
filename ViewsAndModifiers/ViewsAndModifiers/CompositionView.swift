@@ -7,15 +7,23 @@
 
 import SwiftUI
 
+struct CapsuleText: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
+            .font(.largeTitle)
+            .padding()
+            .foregroundColor(.white)
+            .background(.blue)
+            .clipShape(.capsule)
+    }
+}
+
 struct CompositionView: View {
     var body: some View {
         VStack {
-            Text("Hello, World!")
-                .font(.largeTitle)
-                .padding()
-                .foregroundColor(.white)
-                .background(.blue)
-                .clipShape(.capsule)
+            CapsuleText(text: "Hello, World!")
             Text("Hello, Me!")
                 .font(.largeTitle)
                 .padding()
