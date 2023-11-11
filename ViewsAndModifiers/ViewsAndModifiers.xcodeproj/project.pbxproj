@@ -15,6 +15,7 @@
 		95B6640B2AFDEA7100D31A0B /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B6640A2AFDEA7100D31A0B /* PropertyView.swift */; };
 		95B6640D2AFF441E00D31A0B /* CompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B6640C2AFF441E00D31A0B /* CompositionView.swift */; };
 		95B6640F2AFF465000D31A0B /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B6640E2AFF465000D31A0B /* CustomModifiers.swift */; };
+		95B664112AFF79CB00D31A0B /* CustomContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B664102AFF79CB00D31A0B /* CustomContainersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		95B6640A2AFDEA7100D31A0B /* PropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
 		95B6640C2AFF441E00D31A0B /* CompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionView.swift; sourceTree = "<group>"; };
 		95B6640E2AFF465000D31A0B /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		95B664102AFF79CB00D31A0B /* CustomContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				95B6640A2AFDEA7100D31A0B /* PropertyView.swift */,
 				95B6640C2AFF441E00D31A0B /* CompositionView.swift */,
 				95B6640E2AFF465000D31A0B /* CustomModifiers.swift */,
+				95B664102AFF79CB00D31A0B /* CustomContainersView.swift */,
 				95B663FE2AFB64B300D31A0B /* Assets.xcassets */,
 				95B664002AFB64B300D31A0B /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95B664092AFDE7A700D31A0B /* TextContainer.swift in Sources */,
+				95B664112AFF79CB00D31A0B /* CustomContainersView.swift in Sources */,
 				95B6640D2AFF441E00D31A0B /* CompositionView.swift in Sources */,
 				95B6640B2AFDEA7100D31A0B /* PropertyView.swift in Sources */,
 				95B6640F2AFF465000D31A0B /* CustomModifiers.swift in Sources */,
