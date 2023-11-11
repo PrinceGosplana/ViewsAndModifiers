@@ -9,13 +9,19 @@ import SwiftUI
 
 struct Title: ViewModifier {
     func body(content: Content) -> some View {
-        
+        content
+            .font(.largeTitle)
+            .foregroundColor(.white)
+            .padding()
+            .background(.blue)
+            .clipShape(.rect(cornerRadius: 10))
     }
 }
 
 struct CustomModifiers: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
+            .modifier(Title())
     }
 }
 
